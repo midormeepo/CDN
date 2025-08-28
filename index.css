@@ -3266,8 +3266,23 @@ figure.highlight pre .javascript .function {
   display: block;
 }
 #footer {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -o-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
   align-items: center;
   position: relative;
   background-color: #49b1f5;
@@ -3359,9 +3374,6 @@ figure.highlight pre .javascript .function {
   white-space: nowrap;
 }
 #footer .footer-other {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 40px 20px;
   width: 100%;
   text-align: center;
