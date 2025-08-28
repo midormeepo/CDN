@@ -178,6 +178,13 @@ template {
 [hidden] {
   display: none
 }
+
+.footer-other {
+  display: flex; /* 将父容器设置为Flexbox */
+  flex-direction: column; /* 垂直排列子元素 */
+  align-items: center; /* 在交叉轴（水平方向）上居中对齐所有子元素 */
+}
+
 .limit-one-line,
 .container .flink .flink-item-name,
 .container .flink .flink-item-desc,
