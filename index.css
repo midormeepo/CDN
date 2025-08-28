@@ -1514,7 +1514,7 @@ blockquote {
 }
 blockquote footer cite:before {
   padding: 0 5px;
-  content: '—';
+  content: '鈥�';
 }
 blockquote > :last-child {
   margin-bottom: 0 !important;
