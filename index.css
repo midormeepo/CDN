@@ -3266,6 +3266,9 @@ figure.highlight pre .javascript .function {
   display: block;
 }
 #footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: relative;
   background-color: #49b1f5;
   background-attachment: scroll;
